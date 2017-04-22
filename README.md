@@ -15,7 +15,7 @@ npm i -S terminal-joystick
 ## Usage
 
 ```javascript
-const { TerminalJoystick, ON_DRAG } = require('../lib');
+const { TerminalJoystick, ON_DRAG } = require('terminal-joystick');
 
 const joystick = new TerminalJoystick({
   title : 'Joystick - Example',
@@ -35,7 +35,7 @@ joystick.on(ON_DRAG_END, ({ angle, intensity }) => {
 To add ```terminal-joystick``` to an existing blessed application, you just need to provide a reference to the ```blessed.screen``` object and a ```parent``` container :
 
 ```javascript
-const { TerminalJoystick, ON_DRAG } = require('../lib');
+const { TerminalJoystick, ON_DRAG } = require('terminal-joystick');
 
 const screen = blessed.screen();
 const container = new blessed.Box({

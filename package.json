@@ -1,0 +1,32 @@
+{
+  "name": "terminal-joystick",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "description": "A joystick for your terminal.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthieuLemoine/terminal-joystick.git"
+  },
+  "keywords": [
+    "joystick",
+    "blessed",
+    "terminal"
+  ],
+  "author": "MatthieuLemoine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MatthieuLemoine/terminal-joystick/issues"
+  },
+  "homepage": "https://github.com/MatthieuLemoine/terminal-joystick#readme",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-circle": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3"
+  }
+}
